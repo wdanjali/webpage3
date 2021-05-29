@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title> application form </title>
+		<meta charet="utf-8" >
+		<link href="style\style.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		
+		<form name="frm" action="filr.html" method="post"  > 
+			<fieldset id="mainField">
+				<h1>Application For Permission To Date My Daughter </h1>
+				
+				<p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+				
+				<fieldset>
+					
+					<legend><b> detail</b></legend>
+					
+					<label>Name : </label>
+					<input type="text" name="name" id="name" placeholder="Enter name here"/></br></br>
+					
+					<label>Address : </label>
+					<input type="text" name="address" id="address" placeholder="Enter Address  here"/></br></br>
+					
+					<label>Email : </label>
+					<input type="email" name="email" id="email" placeholder="Enter email  here" multiple/></br></br>
+					
+					<label>Phone Number : </label>
+					<input type="tel" name="phoneNo" id="phoneNo" placeholder="Enter 10 digit number"/></br></br>
+					
+					<label>IQ : </label>
+					<input type="number" name="iqNo" id="iqNo" /></br></br>
+					
+					<label>Gender</label></br></br>
+					<input type="radio" name="rdGender" id="rdGender" value="m"> Male</br>
+					<input type="radio" name="rdGender" id="rdGender" value="f"> Female</br>
+					<input type="radio" name="rdGender" id="rdGender" value="o"> Other</br></br>
+					
+					<label>Date of Proposed Outing :</label>
+					<input type="date" name="date" id="date" >
+					
+					
+			    </fieldset>
+				</br>
+				<fieldset>
+						
+						<p>Check All That Apply</p></br>
+						
+						<input type="checkbox" name="ckb" > I have tattoos and/or piercings</br>
+						<input type="checkbox" name="ckb" > I am more than 2 years older than my daughter</br>
+						<input type="checkbox" name="ckb" > I own a panel van or V8 ute</br>
+						<input type="checkbox" name="ckb" > I work full-time</br>
+						<input type="checkbox" name="ckb" > My parents are rich</br>
+						<input type="checkbox" name="ckb" > Is the date at a well lit public location</br>
+				</fieldset>
+				</br>
+				<fieldset>
+					<label>Political Persuasion :<label>
+					<select name="pltPersuasion">
+						<option value="lW"> Left Wing
+						<option value="rW"> Left Wing
+						<option value="cosv"> Conservative
+						<option value="nz"> Nazi
+					</select>
+					<label> Education Level Completed :<label>
+					<select name="edu">
+						<option value="u"> university
+						<option value="c"> Collage
+						<option value="hs"> highschool
+						<option value="n"> None
+					</select>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Essay Section</legend>
+					<p>In 50 words or more explain why you want to date my daughter</p>
+					<textarea name="textArea1" rows="5"  cols="50" wrap="physical" > </textarea>
+					
+					<p>Please upload contact details for 2 references</p>
+					<textarea name="textArea2" rows="5"  cols="50" wrap="physical" ></textarea>
+					
+					<p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: 
+					<button class="button" class="attachfile" >Attach File</button>
+					</p>
+				</fieldset>
+				<br><br>
+				<button type="submit" class="button" id="submitbutton" >send your application</button>
+			</fieldset>
+		</form>
+	
+    </body>
+</html>
+					

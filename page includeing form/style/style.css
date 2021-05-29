@@ -1,0 +1,53 @@
+body
+{
+		font-family: 'Anaheim', sans-serif;
+		font-size:1.2rem;
+		margin:auto;	
+}
+form
+{
+	Width:90%;
+	background-color:#ffffb3;
+	margin:20px auto auto 80px;
+	position:absolute;
+	
+}
+h1
+{
+		text-align:center;
+		
+}
+fieldset
+{
+	border-color:#fff;
+	border-width:0.4px;
+	
+}
+#mainfield
+{
+	background-color:#fff;
+	border-radius:25px;
+	margin-left:100px;
+	position:relative;
+	top:30px;
+	Width:70%;
+}
+.attachfile
+{
+	Width:10rem;
+	height:2rem;
+}
+.button
+{
+	border:0;
+	background-color:red;
+	color:#fff;
+	font-size:1.5rem;
+}
+#submitbutton
+{
+	position:relative;
+	left:30%;
+	Width:16rem;
+	height:2rem;
+}
